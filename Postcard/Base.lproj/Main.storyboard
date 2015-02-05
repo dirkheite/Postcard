@@ -101,7 +101,34 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="7" y="80" width="368" height="88"/>
+                                    <rect key="frame" x="7" y="111" width="368" height="57"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qgf-iV-no9">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <color key="backgroundColor" red="0.9956522080762169" green="1" blue="0.97959945369754042" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="7" y="197" width="286" height="21"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="my name is," lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZLy-nB-2XV">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="7" y="159" width="250" height="21"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="message" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vGI-Aa-2Ob">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="7" y="64" width="84" height="21"/>
                                 </variation>
                             </label>
                         </subviews>
@@ -113,6 +140,9 @@
                                 <exclude reference="KAI-GK-fPP"/>
                                 <exclude reference="MIk-yK-TRw"/>
                                 <exclude reference="m5h-u9-ndy"/>
+                                <exclude reference="Qgf-iV-no9"/>
+                                <exclude reference="ZLy-nB-2XV"/>
+                                <exclude reference="vGI-Aa-2Ob"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,14 +152,20 @@
                                 <include reference="KAI-GK-fPP"/>
                                 <include reference="MIk-yK-TRw"/>
                                 <include reference="m5h-u9-ndy"/>
+                                <include reference="Qgf-iV-no9"/>
+                                <include reference="ZLy-nB-2XV"/>
+                                <include reference="vGI-Aa-2Ob"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
                         <outlet property="enterMessageTextField" destination="KAI-GK-fPP" id="or5-Ft-9q1"/>
                         <outlet property="enterNameTextField" destination="Vgv-NY-cmd" id="X5S-4M-yUG"/>
+                        <outlet property="labelMessageMessage" destination="vGI-Aa-2Ob" id="NUT-Ws-FFe"/>
+                        <outlet property="labelNameName" destination="ZLy-nB-2XV" id="kBD-h8-jPc"/>
                         <outlet property="maiButton" destination="MIk-yK-TRw" id="3vf-xK-aWw"/>
                         <outlet property="messageLabel" destination="m5h-u9-ndy" id="0ki-xw-yu3"/>
+                        <outlet property="nameLabel" destination="Qgf-iV-no9" id="Ifg-t5-83t"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
